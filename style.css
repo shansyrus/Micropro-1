@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #ffcc99;
+}
+
+.content {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.email-signup {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.email-signup input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.email-signup button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.note {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.illustration {
+    max-width: 40%;
+}
+
+.illustration img {
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.credits {
+    text-align: right;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
